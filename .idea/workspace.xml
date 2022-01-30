@@ -1,19 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="828292cc-b329-4cb9-8f60-28293517b28e" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/config/test.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/tests/product.test.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/tests/user.test.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/utils/server.ts" afterDir="false" />
+    <list default="true" id="828292cc-b329-4cb9-8f60-28293517b28e" name="Changes" comment="Added tests">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/controller/product.controller.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/controller/product.controller.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/models/product.model.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/models/product.model.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/service/product.service.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/service/product.service.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/utils/jwt.utils.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/utils/jwt.utils.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/tests/user.test.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/tests/user.test.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -39,7 +29,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/config" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs.jest.jest_package" value="$PROJECT_DIR$/node_modules/jest" />
     <property name="nodejs_package_manager_path" value="yarn" />
     <property name="prettierjs.PrettierConfiguration.Package" value="D:\Programacao\Node\projeto\node_modules\prettier" />
@@ -52,7 +42,7 @@
       <recent name="D:\Programacao\Node\projeto\config" />
     </key>
   </component>
-  <component name="RunManager" selected="Jest.product.test.ts">
+  <component name="RunManager" selected="Jest.user.test.ts">
     <configuration name="product" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
       <node-interpreter value="project" />
       <node-options value="" />
@@ -92,8 +82,19 @@
       <test-file value="$PROJECT_DIR$/src/tests/product.test.ts" />
       <method v="2" />
     </configuration>
+    <configuration name="user.test.ts" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
+      <node-interpreter value="project" />
+      <node-options value="" />
+      <jest-package value="$PROJECT_DIR$/node_modules/jest" />
+      <working-dir value="$PROJECT_DIR$" />
+      <envs />
+      <scope-kind value="TEST_FILE" />
+      <test-file value="$PROJECT_DIR$/src/tests/user.test.ts" />
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Jest.user.test.ts" />
         <item itemvalue="Jest.product.test.ts" />
         <item itemvalue="Jest.product" />
         <item itemvalue="Jest.product.get product route.given the product does not exist.should return a 404" />
@@ -113,8 +114,17 @@
       <workItem from="1643506160350" duration="1109000" />
       <workItem from="1643507298948" duration="35000" />
       <workItem from="1643507354846" duration="9300000" />
-      <workItem from="1643553349951" duration="1810000" />
+      <workItem from="1643553349951" duration="2214000" />
+      <workItem from="1643555711329" duration="121000" />
     </task>
+    <task id="LOCAL-00001" summary="Added tests">
+      <created>1643555270270</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1643555270270</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -131,6 +141,10 @@
       </map>
     </option>
     <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Added tests" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added tests" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
