@@ -6,12 +6,13 @@ const nanoid = customAlphabet("abcdefghijklmnopqrstuvwxyz0123456789", 10);
 
 export interface ProductDocument extends mongoose.Document {
   user: UserDocument["_id"];
+  productId: string;
   title: string;
   description: string;
   price: number;
   image: string;
-  createdAt: Date;
-  UpdatedAt: Date;
+  createdAt?: Date;
+  UpdatedAt?: Date;
 }
 
 const productSchema = new mongoose.Schema(

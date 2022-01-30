@@ -1,16 +1,6 @@
-import { Request, Response } from "express";
-import {
-  CreateProductInput,
-  DeleteProductInput,
-  GetProductInput,
-  UpdateProductInput,
-} from "../schema/product.schema";
-import {
-  createProduct,
-  deleteProduct,
-  findAndUpdateProduct,
-  findProduct,
-} from "../service/product.service";
+import {Request, Response} from "express";
+import {CreateProductInput, DeleteProductInput, GetProductInput, UpdateProductInput,} from "../schema/product.schema";
+import {createProduct, deleteProduct, findAndUpdateProduct, findProduct,} from "../service/product.service";
 
 export async function createProductHandler(
   req: Request<{}, {}, CreateProductInput["body"]>,
@@ -20,7 +10,7 @@ export async function createProductHandler(
 
   const body = req.body;
 
-  const product = await createProduct({ ...body, user: userId });
+  const product = await createProduct({...body, user: userId});
 
   return res.send(product);
 }
